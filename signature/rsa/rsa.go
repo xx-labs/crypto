@@ -29,7 +29,7 @@ import (
 
 // minRSABitLen is the recommended minimum RSA key length allowed in production.
 // Use of any bit length smaller than this will result in a warning log print.
-var minRSABitLen = 4096
+var minRSABitLen = 3072
 
 const minRSABitLenWarn = "CAUTION! RSA bit length %d is smaller than the " +
 	"recommended minimum of %d bits. This is insecure; do not use in production!"
